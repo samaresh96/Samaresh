@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Tooltip container */
+      .tooltip-container {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #f9f9f9;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      #content {
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        height: 100px;
+        width: 90px;
+        text-align: center;
+      }
+
+      #tooltip {
+        height: 150px;
+        width: 100px;
+        left: 127px;
+        top: 95px;
+      }
+
+      /* Show the tooltip when active class is added */
+      .tooltip-container.active {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Content to trigger the tooltip -->
+    <div id="content" style="margin-right: 20px">this is a box</div>
+
+    <!-- Tooltip container -->
+    <div class="tooltip-container" id="tooltip">
+      This is a tooltip. It will automatically scroll to the bottom.
+    </div>
+
+    <script>
+      // Add event listener to trigger the tooltip after a delay
+      document
+        .getElementById("content")
+        .addEventListener("mouseover", function () {
+          setTimeout(showTooltip, 650); // Show tooltip after 2 seconds
+        });
+
+      // Function to show the tooltip and start scrolling
+      function showTooltip() {
+        var tooltip = document.getElementById("tooltip");
+        tooltip.classList.add("active");
+
+        // Scroll the tooltip to the bottom
+        tooltip.scrollTop = tooltip.scrollHeight;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+method overloading(within class, we can change return type of types of parameter) && method overriding (different class , logic of every class will be differnt , but for overloading parameter will be different)
+
+in java : compile time polymorphism (method             overloading) (static type polymorphism )
+
+operator overloading(c++)
+
+run-time polymorphism (dynamic type polymorphism)
+
+
+collection of abstarct methods : interface
+implements keyword
+
+interface methods are by default public and abstract
+
+contract b/w cient and developer

@@ -1,0 +1,18 @@
+h2{
+    color: green;
+    margin-left: 69px;
+    margin-bottom: 16px;
+}
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+}

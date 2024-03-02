@@ -1,0 +1,12 @@
+mark and sweep algorithm
+Inlining
+copy elision
+inline caching
+
+
+garbage collector , orinoco, oilpam 
+
+v8 - ingition(interpretor)
+turbo fan(optimising compiler)
+
+10,10,35 (RGB) free code camp

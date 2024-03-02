@@ -1,0 +1,49 @@
+vpc,ec2,s3,RDS,IAM,codeCmmit,codeBuild,codeDeploy,
+codePipeline,route 53,cloudformation,ECS,ECR,EKS,Cloudwatch,cloudtraiAws Lambda,systems manager , elastic beanstalk,
+AWS kms , secrets manager 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select Customers.customer_id , first_name , last_name, item , amount from Customers JOIN Orders ON
+Customers.customer_id=Orders.customer_id order by Orders.customer_id ASC;
+
+
+class to class(extends)
+interface - implements
+
+
+
+
+
+
+
+infrastructure(underlying system and hardware),automation,monitoring
+
+spring framework(Spring,Spring Boot,Spring MVC,ORM(Hibernate), Spring Security, Spring Data, Spring Cloud)
+
+web app, Rest API, MicroServices

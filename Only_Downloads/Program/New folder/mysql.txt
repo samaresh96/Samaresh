@@ -1,0 +1,7 @@
+ docker exec -it some-mysql mysql -uroot -p
+(user:root , password : my-secret-pw)
+
+pass : my-secret-pw
+for mumbai region
+
+

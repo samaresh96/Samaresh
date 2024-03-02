@@ -1,0 +1,21 @@
+mysecretpassword
+
+docker exec -it myPostgress psql -U postgres
+
+pgadmin user : postgres
+pass = mysecretpassword
+
+on n.virginia
+
+pgamin access ->
+
+uname :user@example.com
+pass: admin
+
+to inspect the uname and password of a container you should run 
+docker inspect container_name
+
+
+
+
+/var/cache/apt/archives - downlaoded files do stay here

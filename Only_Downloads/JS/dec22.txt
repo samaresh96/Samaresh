@@ -1,0 +1,9 @@
+https://youtu.be/IKumQCTNJOY?si=pfu5qo7pBeg7PdDf
+https://youtu.be/M3kpFQEhsPU?si=LTcS4XIIAH97Ldbo(movie)
+
+
+create role sonaruser with LOGIN ENCRYPTED PASSWORD 'sonarqube'
+
+
+
+

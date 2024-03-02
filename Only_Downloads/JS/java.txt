@@ -1,0 +1,12 @@
+we can recover exceptions but we can not recover errors
+
+try,catch,finally,throw,throws
+
+multi catch block(in updated java)
+
+throws keyword used with the method (checked exception)
+throw handles the exception
+throw - throw the exception (it is used inside of the block , checked and unchecked both)
+
+
+using throw and throws we can create our custom exceptions

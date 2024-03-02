@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    height: 34px;
+    width: 85px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffff;
+}
+
+.ri-thumb-up-line {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.ri-thumb-up-fill{
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+#LikeCounter{
+    font-size: 21px;
+    margin-left: -8px;
+    position: absolute;
+    top: 6px;
+    left: 69px;
+}
