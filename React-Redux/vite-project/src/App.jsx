@@ -9,6 +9,10 @@ const App = () => {
       <h1>{count}</h1>
       <Button onClick={() => setCount(count + 1)} variant="contained" color="secondary" size="small">Click me</Button>
       <Button onClick={() => setCount(count - 1)} variant="contained" color="secondary" size="small">Click me</Button>
+      <Button onClick={() => setCount(count - 1)} variant="contained" color="secondary" size="small">Click me</Button>
+      <Button onClick={() => setCount(count - 1)} variant="contained" color="secondary" size="small">Click me</Button>
+      <Button onClick={() => setCount(count - 1)} variant="contained" color="secondary" size="small">Click me</Button>
+      <Button onClick={() => setCount(count - 1)} variant="contained" color="secondary" size="small">Click me</Button>
     </div>
   );
 };
